@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    
+<!-- 
+     <class name="PracticeRest.Assured.Chap6one" >
+      <methods>
+            <include name = "testexm2"></include> 
+            <include name = "testexm1"></include> 
+
+      </methods>
+     </class>      
+     <class name="PracticeRest.Assured.sizeoflist" >
+          </class>  
+         --> 
+          <class name="PracticeRest.Assured.India" >
+      <methods>
+          <exclude name="Testing"></exclude>
+      </methods>
+     </class>           
+    </classes>
+  </test> 
+</suite>
